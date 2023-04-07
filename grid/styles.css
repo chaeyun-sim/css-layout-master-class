@@ -1,24 +1,16 @@
 .grid {
+  color: white;
   display: grid;
   gap: 5px;
-  height: 50vh;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  align-items: end;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  grid-auto-rows: 100px;
 }
 
-.header {
-  background: #2ecc71;
+.item:nth-child(odd) {
+  background-color: #2ecc71;
 }
 
-.content {
-  background: #3498db;
-}
-
-.nav { 
-  background: #8e44ad;
-}
-
-.footer {
-  background: #f39c12;
+.item:nth-child(even) {
+  background-color: #3498db;
 }
