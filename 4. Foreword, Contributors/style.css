@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body {
+  font-family: 'Arimo', sans-serif;
+  /*   width: 100%; */
+  width: 1920px;
+  /*   height: 100vh; */
+  height: 1000px;
+}
+
+.title {
+  height: 130px;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  letter-spacing: 5px;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(6, 350px);
+  grid-template-rows: repeat(2, 500px);
+}
+
+.box {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: -250px;
+  flex-direction: column;
+}
+
+.box>h1 {
+  font-size: 27px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.box>span {
+  font-size: 13px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.box:nth-child(1) {
+  background: #bfbda7;
+}
+
+.box:nth-child(2) {
+  background: #993333;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box:nth-child(4) {
+  background: #3aa9fa;
+}
+
+.box:nth-child(5) {
+  background: #fe4714;
+}
+
+.box:nth-child(8) {
+  background: #41907a;
+}
+
+.box:nth-child(9) {
+  background: #847e96;
+}
+
+.box:nth-child(11) {
+  background: #d0ff71;
+}
+
+.box:nth-child(12) {
+  background: #e3c4e5;
+}
